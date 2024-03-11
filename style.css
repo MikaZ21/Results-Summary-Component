@@ -1,15 +1,30 @@
 body { 
     text-align: center; 
     font-family: Hanken Grotesk;
+    background-color: aliceblue;
+}
+
+.container {
+    /* text-align: center; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    height: 50px;
+    margin-top: 100px;
 }
 
 .result {
     background-image: linear-gradient(#7755FF 0%, #6943FF 10%, #2F2CE9 100%);
-
+    /* display: inline-block; */
     border-radius: 30px;
     padding: 20px;
-    width: 30%;
-
+    width: 70%;
+    /* vertical-align: middle; */
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    z-index: 2;
+    padding: 40px;
 }
 
 .yourResult {
@@ -27,11 +42,11 @@ body {
     margin: auto;
 }
 
-.score {
+.totalScore {
     color: #ffffff;
     font-size: 72px;
-    padding-top: 50px;
-    margin-top: 40px;
+    padding-top: 45px;
+    margin-top: 30px;
     margin-bottom: 0;
     font-weight: 800;
 }
@@ -39,7 +54,6 @@ body {
 .ofMaxScore {
     color:#CAC9FF;
     font-size: 18px;
-    padding-bottom: 50px;
     margin-top: 0;
     font-weight: 700;
     line-height: 23.45px;
@@ -58,4 +72,96 @@ body {
     font-size: 18px;
     line-height: 23.45px;
     font-weight: 500;
+}
+
+.summary {
+    background-color:white;
+    /* display: inline-block; */
+    /* box-shadow: ; */
+    border-radius: 30px;
+    padding: 20px;
+    width: 50%;
+    /* height: 450px; */
+    /* vertical-align:middle; */
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    z-index: 1;
+    width: 100%;
+    padding: 40px 30px 40px 260px;
+    font-size: 18px;
+}
+
+.summaryTtl {
+    color: #303B59;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 31.27px;
+    text-align: left;
+    padding-left: 60px;
+}
+
+.summaryItem {
+margin: 60px;
+/* margin-left: 60px 60px 60px 400px; */
+border-radius: 10px;
+display:inline-flex;
+font-size: 18px;
+font-weight: 500;
+line-height: 23.45px;
+width: 80%;
+}
+
+.summaryItem img {
+    padding: 15px;
+}
+
+.reaction {
+    background-color: color-mix(in srgb, #FF5555 5% ,#FFFFFF 95%);
+    color: #FF5555;
+}
+
+.memory {
+    background-color: color-mix(in srgb, #FFB21E 5% ,#FFFFFF 95%);
+    color: #FFB21E;
+}
+
+.verbal {
+    background-color: color-mix(in srgb, #00BB8F 5% ,#FFFFFF 95%);
+    color: #00BB8F;
+}
+
+.visual {
+    background-color: color-mix(in srgb, #1125D6 5% ,#FFFFFF 95%);
+    color: #1125D6;
+}
+
+
+.score {
+    color: #303B59;
+    font-weight: 700;
+    font-size: 18px;
+    padding-left: 70px;
+}
+
+.summaryItem .score100 {
+    color: #303b597c;
+}
+
+.continueBtn {
+    background-color: #303B59;
+    color: white;
+    padding: 5%;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    border-radius: 50px;
+    width: 80%;
+}
+
+
+.attribution {
+    position:absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
 }
