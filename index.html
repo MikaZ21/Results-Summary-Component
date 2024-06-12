@@ -12,49 +12,56 @@
   <title>Frontend Mentor | Results summary component</title>
 </head>
 <body>
-  <div>
-    <div class="container">
-      <div class="result">
-        <h1 class="yourResult">Your Result</h1>
-        <div class="displayScore">
-          <p class="totalScore">76</p>
-          <p class="ofMaxScore">of 100</p>
-        </div>
-
-        <h2 class="level">Great</h2>
-        <p class="levelMessage">You scored higher than 65% of the people who have taken these tests.</p>
+  <div class="container">
+    <div class="result">
+      <p class="result-header">Your Result</p>
+      <div class="circle">
+        <p class="result-marks">76</p>
+        <p class="result-full-marks">of 100</p>
       </div>
-      <div class="summary">
-        <h2 class="summaryTtl">Summary</h2>
-
-        <div class="summaryItem reaction">
-          <img src="assets/images/icon-reaction.svg" alt="reaction icon">
-          <p>Reaction</p>
-          <p class="score">80 <span class="score100">/ 100</span></p>
-        </div>
-        <div class="summaryItem memory">
-          <img src="assets/images/icon-memory.svg" alt="memory icon">
-          <p>Memory</p>
-          <p class="score">92 <span class="score100">/ 100</span></p>
-        </div>
-        <div class="summaryItem verbal">
-          <img src="assets/images/icon-verbal.svg" alt="verbal icon">
-          <p>Verbal</p>
-          <p class="score">61 <span class="score100">/ 100</span></p>
-        </div>
-        <div class="summaryItem visual">
-          <img src="assets/images/icon-visual.svg" alt="visual icon">
-          <p>Visual</p>
-          <p class="score">73 <span class="score100">/ 100</span></p>
-        </div>
-        <button class="continueBtn">Continue</button>
-      </div>
+      <p class="great">Great</p>
+      <p class="message">You scored higher than 65% of the people who have taken these tests.</p>
     </div>
 
-    <div class="attribution">
+    <div class="summary">
+      <p class="summary-header">Summary</p>
+      <div class="summary-details red-summary">
+        <div class="summary-info">
+          <img src="./assets/images/icon-reaction.svg" alt="Summary of reaction score">
+          <p class="red-info">Reaction</p>
+        </div>
+        <p class="marks">80<span class="fullMarks">/ 100</span></p>
+      </div>
+      <div class="summary-details yellow-summary">
+        <div class="summary-info">
+          <img src="./assets/images/icon-memory.svg" alt="Summary of memory score">
+          <p class="yellow-info">Memory</p>
+        </div>
+        <p class="marks">92<span class="fullMarks">/ 100</span></p>
+      </div>
+      <div class="summary-details green-summary">
+        <div class="summary-info">
+          <img src="./assets/images/icon-verbal.svg" alt="Summary of Verbal score">
+          <p class="green-info">Verbal</p>
+        </div>
+        <p class="marks">61<span class="fullMarks">/ 100</span></p>
+      </div>
+      <div class="summary-details blue-summary">
+        <div class="summary-info">
+          <img src="./assets/images/icon-visual.svg" alt="Summary of Visual score">
+          <p class="blue-info">Visual</p>
+        </div>
+        <p class="marks">73<span class="fullMarks">/ 100</span></p>
+      </div>
+
+      <button class="continue">Continue</button>
+    </div>
+  </div>
+
+  <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Mika Zukeyama</a>.
   </div>
-</div>
+
 </body>
 </html>
