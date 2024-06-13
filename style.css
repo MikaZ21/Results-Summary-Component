@@ -22,7 +22,12 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: linear-gradient(180deg, #7755FF 0%, #6943FF 0.01%, #2F2CE9 100%);
+    background: linear-gradient(
+        180deg, 
+        #7755FF 0%, 
+        #6943FF 0.01%, 
+        #2F2CE9 100%
+    );
     border-radius: 32px;
     color: white;
     padding: 2rem;
@@ -37,7 +42,12 @@
 }
 
 .circle {
-    background: linear-gradient(180deg, #4D21C9 0%, #2521C9 100%, #2521C9 0%);
+    background: linear-gradient(
+        180deg, 
+        #4D21C9 0%, 
+        #2521C9 100%, 
+        #2521C9 0%
+    );
     border-radius: 50%;
     height: 140px;
     width: 140px;
@@ -106,48 +116,68 @@
     gap: 0.5rem;
 }
 
+.marks {
+    font-weight: bold;
+}
+
 .fullMarks {
     color: gray;
 }
 
 /* Red: Reaction */
-.red-summary {
+.reaction-summary {
     background-color: #FFF6F5;
     font-weight: bold;
 }
 
-.red-info {
+.reaction-info {
     color: #ff5555;
 }
 
+.reaction-summary .summary-info img {
+    filter: hue-rotate(0deg) saturate(0%);
+}
+
 /* Yellow: Memory */
-.yellow-summary {
+.memory-summary {
     background-color: #FFF6F5;
     font-weight: bold;
 }
 
-.yellow-info {
+.memory-info {
     color: #FFB21E;
 }
 
+.memory-summary .summary-info img {
+    filter: hue-rotate(45deg) saturate(100%);
+}
+
 /* Green: Verbal */
-.green-summary {
+.verbal-summary {
     background-color: #F2FBFA;
     font-weight: bold;
 }
 
-.green-info {
+.verbal-info {
     color: #00BB8F;
 }
 
+.verbal-summary .summary-info img {
+    filter: hue-rotate(140deg) saturate(100%);
+}
+
 /* Blue: Visual */
-.blue-summary {
+.visual-summary {
     background-color: #F3F3FD;
     font-weight: bold;
 }
 
-.blue-info {
+.visual-info {
     color: #293194;
+}
+
+.visual-summary .summary-info img {
+    filter: hue-rotate(240deg) saturate(100%);
 }
 
 .continue {
