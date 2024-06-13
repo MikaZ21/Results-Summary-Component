@@ -36,8 +36,8 @@
   </div>
 
   <script>
-    fetch('data.json')
-      .then(response => response.json())
+    fetch('data.json') // This method fetches the JSON data from the data.json file.
+      .then(response => response.json()) // converts the response to a JSON object.
       .then(data => {
         const summaryContent = document.getElementById('summary-content');
         let summaryHTML = '';

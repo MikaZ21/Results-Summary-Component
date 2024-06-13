@@ -27,7 +27,15 @@ Users should be able to:
 ![Desktop-Screen](https://github.com/MikaZ21/Results-Summary-Component/assets/93892096/d025f4d2-a8b3-4045-bab7-d2f32a450870)*Desktop-Screen*
 
 ### What I learned
-It was nice to learn fundamental concepts, including practical ways to implement each section. Top to bottom and left to right.
+📍 It was nice to learn fundamental concepts, including practical ways to implement each section. Top to bottom and left to right.
+
+📍 JSON file to populate HTML dynamically.
+  * Fetch the JSON Data: Use JavaScript to fetch the data from the data.json file.
+  * Update HTML Elements: Once have the data, Use it to update the corresponding HTML elements.
+
+  This way, HTML is clean and fucusing only on structure and placeholders. All data-related changes are handled on the JSON file and JavaScript, making it easier to update without modifying the HTML structure.
+
+  💡 Using JSON data can be beneficial for scenarios where the data is likely to change frequently, where data might be fetched from an API, or when separating data from presentation logic is desired. However, if the data is static and unlikely to change, hardcoding it in the HTML might be simpler and more concise.
 
 <img alt="Mobile-Screen" src="https://github.com/MikaZ21/Results-Summary-Component/assets/93892096/2a4416d2-fdda-43b5-9f6f-b48a76425bf4" width="30%" height="30%">*Mobile-Screen*
 
