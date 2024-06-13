@@ -195,6 +195,14 @@
     margin-bottom: 2rem;
 }
 
+.continue:hover,
+.continue:focus {
+    background: pink;
+    color: #fff;
+    outline: none;
+}
+
+
 /* for Desktop */
 @media only screen and (min-width: 768px) {
     .container {
@@ -260,4 +268,11 @@
             #2F2CE9 100%
         );
     }
+
+        .continue:hover,
+        .continue:focus {
+            background: pink;
+            color: #fff;
+            outline: none;
+        }
 }
