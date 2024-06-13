@@ -14,7 +14,7 @@
 ## Overview
 
 ### The challenge
-building out [this](https://www.frontendmentor.io/challenges/results-summary-component-CE_K6s0maV) results summary component and getting it as close to the design as possible.
+Building out [this](https://www.frontendmentor.io/challenges/results-summary-component-CE_K6s0maV) results summary component and getting it as close to the design as possible.
 
 Users should be able to:
 - View the optimal layout for the interface depending on their device's screen size
@@ -23,14 +23,14 @@ Users should be able to:
 
 ### Screenshot
 
-![Desktop-Screen](https://github.com/MikaZ21/Results-Summary-Component/assets/93892096/d025f4d2-a8b3-4045-bab7-d2f32a450870)
+![Desktop-Screen](https://github.com/MikaZ21/Results-Summary-Component/assets/93892096/d025f4d2-a8b3-4045-bab7-d2f32a450870)*Desktop-Screen*
 
 ### What I learned
 It was nice to learn fundamental concepts, including practical ways to implement each section. Top to bottom and left to right.
 
-![Mobile-Screen](https://github.com/MikaZ21/Results-Summary-Component/assets/93892096/2a4416d2-fdda-43b5-9f6f-b48a76425bf4)
+![Mobile-Screen](https://github.com/MikaZ21/Results-Summary-Component/assets/93892096/2a4416d2-fdda-43b5-9f6f-b48a76425bf4)*Mobile-Screen*
 
-![Mobile-Screen2](https://github.com/MikaZ21/Results-Summary-Component/assets/93892096/1f17af93-92d0-4879-9fd8-0a7e609d6a25)
+![Mobile-Screen2](https://github.com/MikaZ21/Results-Summary-Component/assets/93892096/1f17af93-92d0-4879-9fd8-0a7e609d6a25)*Mobile-Screen2*
 
 ## Acknowledgments
 
