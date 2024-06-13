@@ -28,9 +28,9 @@ Users should be able to:
 ### What I learned
 It was nice to learn fundamental concepts, including practical ways to implement each section. Top to bottom and left to right.
 
-![Mobile-Screen](https://github.com/MikaZ21/Results-Summary-Component/assets/93892096/2a4416d2-fdda-43b5-9f6f-b48a76425bf4)*Mobile-Screen*
+<img alt="Mobile-Screen" src="https://github.com/MikaZ21/Results-Summary-Component/assets/93892096/2a4416d2-fdda-43b5-9f6f-b48a76425bf4" width="30%" height="30%">*Mobile-Screen*
 
-![Mobile-Screen2](https://github.com/MikaZ21/Results-Summary-Component/assets/93892096/1f17af93-92d0-4879-9fd8-0a7e609d6a25)*Mobile-Screen2*
+<img alt="Mobile-Screen2" src="https://github.com/MikaZ21/Results-Summary-Component/assets/93892096/1f17af93-92d0-4879-9fd8-0a7e609d6a25" width="30%" height="30%">*Mobile-Screen2*
 
 ## Acknowledgments
 
